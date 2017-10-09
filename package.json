@@ -1,0 +1,19 @@
+{
+  "name": "bladerunner",
+  "version": "1.0.0",
+  "description": "a tribute page to bladerunner 1982 && 2049",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TSSaint/bladerunner_page.git"
+  },
+  "author": "T. Sebi Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TSSaint/bladerunner_page/issues"
+  },
+  "homepage": "https://github.com/TSSaint/bladerunner_page#readme"
+}
