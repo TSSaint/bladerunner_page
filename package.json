@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TSSaint/bladerunner_page/issues"
   },
-  "homepage": "https://github.com/TSSaint/bladerunner_page#readme"
+  "homepage": "https://github.com/TSSaint/bladerunner_page#readme",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
 }
