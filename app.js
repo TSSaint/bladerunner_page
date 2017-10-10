@@ -1,9 +1,20 @@
 var express = require('express');
 var app = express();
 
-// home test
+// set render engine
+app.set("view engine", 'ejs');
+
+// home
 app.get('/', function(req, res) {
-  res.send('Drone synth firing..');
+  res.render('index', {
+    title: "BLADE RUNNER PAGE",
+    movies: ["Blade Runner","Blade Runner 2049"]
+  });
+});
+
+// missing page logic
+app.get('*', function(req, res) {
+  res.send("This is not page that you are looking for.");
 });
 
 // deckard egg
@@ -33,4 +44,4 @@ app.get('/bladerunner2049', function(req, res) {
 // console.log test
 app.listen(2048, function() {
   console.log('Scanning for replicants on LocalHost: 2049 - 1.');
-})
+});
