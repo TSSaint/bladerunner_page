@@ -20,7 +20,7 @@ app.get('/officerk', function(req, res) {
 // Blade Runner Original //
 //////////////////////////
 app.get('/bladerunner', function(req, res) {
-  res.send('LOS ANGELES: 1982.');
+  res.send('LOS ANGELES: 2019.');
 });
 
 ///////////////////////
