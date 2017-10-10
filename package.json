@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/TSSaint/bladerunner_page#readme",
   "dependencies": {
-    "express": "^4.16.1"
+    "ejs": "^2.5.7",
+    "express": "^4.16.1",
+    "nodemon": "^1.12.1"
   }
 }
