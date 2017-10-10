@@ -12,11 +12,6 @@ app.get('/', function(req, res) {
   });
 });
 
-// missing page logic
-app.get('*', function(req, res) {
-  res.send("This is not page that you are looking for.");
-});
-
 // deckard egg
 app.get('/deckard', function(req, res) {
   res.send('I had your job once. I was good at it.');
@@ -44,4 +39,9 @@ app.get('/bladerunner2049', function(req, res) {
 // console.log test
 app.listen(2048, function() {
   console.log('Scanning for replicants on LocalHost: 2049 - 1.');
+});
+
+// missing page logic
+app.get('*', function(req, res) {
+  res.send("This is not page that you are looking for.");
 });
