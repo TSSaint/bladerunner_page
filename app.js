@@ -14,12 +14,18 @@ app.get('/', function(req, res) {
 
 // deckard egg
 app.get('/deckard', function(req, res) {
-  res.send('I had your job once. I was good at it.');
+  res.render('deckard', {
+    title: "BLADE RUNNER PAGE",
+    movies: ["Blade Runner", "Blade Runner 2049"]
+  });
 });
 
 // officer K egg
 app.get('/officerk', function(req, res) {
-  res.send('I just want to ask some questions.');
+  res.render('officerk', {
+    title: "BLADE RUNNER PAGE",
+    movies: ["Blade Runner", "Blade Runner 2049"]
+  });
 });
 
 ///////////////////////////
