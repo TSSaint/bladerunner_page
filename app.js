@@ -12,7 +12,7 @@ app.get('/', function(req, res) {
   });
 });
 
-// deckard egg
+// deckard
 app.get('/deckard', function(req, res) {
   res.render('deckard', {
     title: "BLADE RUNNER PAGE",
@@ -20,9 +20,17 @@ app.get('/deckard', function(req, res) {
   });
 });
 
-// officer K egg
+// officer K
 app.get('/officerk', function(req, res) {
   res.render('officerk', {
+    title: "BLADE RUNNER PAGE",
+    movies: ["Blade Runner", "Blade Runner 2049"]
+  });
+});
+
+// officer
+app.get('/ltjoshi', function(req, res) {
+  res.render('ltjoshi', {
     title: "BLADE RUNNER PAGE",
     movies: ["Blade Runner", "Blade Runner 2049"]
   });
